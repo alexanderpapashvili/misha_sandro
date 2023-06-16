@@ -1,11 +1,11 @@
 import styles from './page.module.css'
-import Header from './components/header/Header'
 import Button from './components/button/Button'
+import Header from './components/header/Header'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-     <Header />
+      <Header />
      <Button /> 
     </main>
   )
