@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header />
-     <Button /> 
+      <Button /> 
     </main>
   )
 }
